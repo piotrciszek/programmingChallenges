@@ -2,15 +2,16 @@ import java.util.Random;
 
 public class NameGenerator {
 
-    private static String[] beginning = { "Kr", "Ca", "Ra", "Mrok", "Cru",
-            "Ray", "Bre", "Zed", "Drak", "Mor", "Jag", "Mer", "Jar", "Mjol",
-            "Zork", "Mad", "Cry", "Zur", "Creo", "Azak", "Azur", "Rei", "Cro",
-            "Mar", "Luk" };
-    private static String[] middle = { "air", "ir", "mi", "sor", "mee", "clo",
-            "red", "cra", "ark", "arc", "miri", "lori", "cres", "mur", "zer",
-            "marac", "zoir", "slamar", "salmar", "urak" };
-    private static String[] end = { "d", "ed", "ark", "arc", "es", "er", "der",
-            "tron", "med", "ure", "zur", "cred", "mur" };
+    private static String[] beginning = { "Adam", "Adrian", "Andrzej", "Bartłomiej", "Benedykt",
+            "Cezary", "Dariusz", "Eliasz", "Ferdynand", "Grzegorz", "Gabriel", "Hipolit",
+            "Jarosław", "Jaromir", "Krzysztof", "Krystian", "Kacper", "Leon", "Leszek",
+            "Maciej", "Mirosław", "Michał", "Okatwian", "Paweł", "Piotr" };
+    private static String[] middle = { "Ananas", "Brokuł", "Burak", "Cebula", "Dynia", "Eukaliptus",
+            "Fenkuł", "Groszek", "Hiacynt", "Imbir", "Jaśmin", "Kapusta", "Limonka", "Marchewka",
+            "Nektarynka", "Ogórek", "Oliwka", "Pietruszka", "Pasternak", "Rabarbar" };
+    private static String[] end = { "Andrzejewski", "Błeński", "Ciszek", "Dembowski", "Fijałkowski",
+            "Goliński", "Herman", "Iksiński", "Jarocki", "Kowalski", "Liberadzki", "Musiał",
+            "Nowak", "Ojrzyński" };
 
     private static Random rand = new Random();
 
