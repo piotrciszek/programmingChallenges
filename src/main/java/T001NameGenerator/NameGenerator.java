@@ -1,3 +1,5 @@
+package T001NameGenerator;
+
 import java.util.Random;
 
 public class NameGenerator {
