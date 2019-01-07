@@ -11,8 +11,10 @@ public class Main {
         a = s.nextInt();
         if (a == 1) {
             tc.convertCtoFAndPrint();
-        } else {
+        } else if (a == 2){
             tc.convertFtoCAndPrint();
+        } else {
+            System.out.println("Zły wybór");
         }
     }
 }
